@@ -12,9 +12,8 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Контакты</title>
+  <title>Список</title>
   <link rel="shortcut icon" type="image/jpg" href="images/11.png"/>
-
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -26,16 +25,18 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
-
-<body class="sub_page">
+<body>
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo1.png" alt="" />
+            <img src="images/logo.png" alt="" />
           </a>
+          <div class="navbar-collapse" id="">
+            <ul class="navbar-nav justify-content-between ">
+            </ul>
 
             <div class="custom_menu-btn">
               <button onclick="openNav()">
@@ -63,72 +64,7 @@
         </nav>
       </div>
     </header>
-    <!-- end header section -->
-  </div>
-
-
-  <!-- contact section -->
-
-  <section class="contact_section ">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Связь с нами
-        </h2>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="map_container">
-            <div class="map-responsive">
-              <iframe src="https://yandex.ru/map-widget/v1/?ll=39.774356%2C47.265005&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQzMDYwODYxEkzQoNC-0YHRgdC40Y8sINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDRg9C70LjRhtCwINCa0YPRgNGH0LDRgtC-0LLQsCwgMdCUIgoN8BgfQhVdDz1C&z=17.14" width="1000" height="550" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-5 ">
-          <div class="form_container">
-            <form id="contactForm" class="contact-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
-                <span class="error-message"></span>
-              </div>
-              <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Ваш email" required>
-                <span class="error-message"></span>
-              </div>
-              <div class="form-group">
-                <textarea name="message" class="form-control" placeholder="Ваше сообщение" required></textarea>
-                <span class="error-message"></span>
-              </div>
-               <div>
-                <label><input type="checkbox" class="check-box" required></label>Я ознакомлен с 
-                  <a href="ps/novostr2.pdf">
-                  Пользовательским соглашением
-                  </a>
-              <label> и <a href="ps/novostr3.pdf">
-                  Положением об обработке персональных данных
-                </a>
-              </label>
-            </div>
-                <button type="submit" class="d-flex">
-                <span class="button-text">Отправить</span>
-                <span class="spinner-border spinner-border-sm d-none" role="status"></span>
-                </button>
-                <input type="text" name="honeypot" style="display:none"> 
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
-
-
-
-  <!-- info section -->
-  <section class="info_section ">
+      <section class="info_section ">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -141,7 +77,6 @@
                 <img src="images/location.png" width="18px" alt="">
               </div>
               <p>
-                <a href="https://yandex.ru/maps/-/CHfl4P6Y">
                   344020, г.Ростов-на-Дону, ул.Курчатова, 1Д
                 </a>
               </p>
@@ -182,12 +117,12 @@
             </h5>
             <ul>
               <li>
-                <a href="https://vk.com/vrtxw">
+                <a href="https://vk.com/vrtxw" target="_blank" rel="noopener noreferrer">
                   VK
                 </a>
               </li>
               <li>
-                <a href="https://t.me/vrtxw">
+                <a href="https://t.me/vrtxw" target="_blank" rel="noopener noreferrer">
                   Telegram
                 </a>
               </li>
@@ -198,7 +133,7 @@
           <div class="info_form ">
             <div class="social_box">
               <a href="https://t.me/+G5n0C3HExp9iMTQy">
-                <img src="images/telegram.png" alt="https://t.me/+G5n0C3HExp9iMTQy">
+                <img src="images/telegram.png" alt="">
               </a>
               <a href="https://vk.com/novostroy_yug">
                 <img src="images/vk.png" alt="">
@@ -220,22 +155,16 @@
 
 
   <!-- footer section -->
-  <section class="container-fluid footer_section ">
+<footer class="container-fluid footer_section ">
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By VRTXW
       </p>
     </div>
-  </section>
+</footer>
   <!-- end  footer section -->
 
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
-  <script type="text/javascript" src="js/send.js"></script>
-
-</body>
-</body>
-
-</html>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/send.js"></script>
