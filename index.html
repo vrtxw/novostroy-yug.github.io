@@ -95,21 +95,20 @@
   <!-- find section -->
   <section class="find_section ">
     <div class="container">
-      <form action="">
-        <div class=" form-row">
+      <form>
+        <div class="form-row">
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Выбери Категорию ">
+            <input type="text" class="form-control" placeholder="Город">
           </div>
           <div class="col-md-5">
             <input type="text" class="form-control" placeholder="Расположено ">
           </div>
           <div class="col-md-2">
-            <button type="submit" class="">
+            <button type="submit">
               поиск
             </button>
           </div>
         </div>
-
       </form>
     </div>
   </section>
@@ -140,7 +139,7 @@
             <p>
               В наших новых квартирах вы найдете всё для комфортной и счастливой жизни! Просторные светлые комнаты, современные планировки, качественная отделка и потрясающие виды из окон создадут атмосферу уюта и вдохновения. Безопасность, развитая инфраструктура и зеленые дворы — идеальный выбор для вашей семьи. Ваш новый дом ждет вас!
             </p>
-            <a href="">
+            <a href="about.html">
               Читать...
             </a>
           </div>
@@ -453,7 +452,7 @@
                 Гарантируем
               </h3>
               <h5>
-                Качество и Уют
+                Качество и уют
               </h5>
             </div>
           </div>
@@ -468,7 +467,7 @@
                 В планах
               </h3>
               <h5>
-                Реализовать все наши задумки
+                Реализовать все ваши мечты
               </h5>
             </div>
           </div>
@@ -503,11 +502,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          Больше...
-        </a>
       </div>
     </div>
   </section>
@@ -595,7 +589,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Связь С Нами
+          Связь с нами
         </h2>
       </div>
     </div>
@@ -604,23 +598,26 @@
         <div class="col-md-6 px-0">
           <div class="map_container">
             <div class="map-responsive">
-              <iframe src="https://yandex.ru/maps/-/CHfl4P6Y" width="950" height="550" style="border:0;" allowfullscreen="allowfullscreen"></iframe>
+              <iframe src="https://yandex.ru/map-widget/v1/?ll=39.774356%2C47.265005&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQzMDYwODYxEkzQoNC-0YHRgdC40Y8sINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDRg9C70LjRhtCwINCa0YPRgNGH0LDRgtC-0LLQsCwgMdCUIgoN8BgfQhVdDz1C&z=17.14" width="1000" height="550" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-5 ">
           <div class="form_container">
-            <form action="php/send.php" method="POST">
-              <div>
-                <input type="text" name ="name" placeholder="Ваше имя" required />
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control2" placeholder="Ваше имя" required>
+                <span class="error-message"></span>
               </div>
-              <div>
-                <input type="email" name ="email" placeholder="Ваша почта" required />
+              <div class="form-group">
+                <input type="email" name="email" class="form-control2" placeholder="Ваш email" required>
+                <span class="error-message"></span>
               </div>
-              <div>
-                <input type="text" name ="message" class="message-box" placeholder="Ваше сообщение" required />
+              <div class="form-group">
+                <textarea name="message" class="form-control" placeholder="Ваше сообщение" required></textarea>
+                <span class="error-message"></span>
               </div>
-              <div>
+               <div>
                 <label><input type="checkbox" class="check-box" required></label>Я ознакомлен с 
                   <a href="ps/novostr2.pdf">
                   Пользовательским соглашением
@@ -630,15 +627,14 @@
                 </a>
               </label>
             </div>
-              <div class="d-flex ">
-                <button>
-                  Отправить
+                <button type="submit" class="d-flex">
+                <span class="button-text">Отправить</span>
+                <span class="spinner-border spinner-border-sm d-none" role="status"></span>
                 </button>
-              </div>
+                <input type="text" name="honeypot" style="display:none"> 
             </form>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -661,7 +657,9 @@
                 <img src="images/location.png" width="18px" alt="">
               </div>
               <p>
-                344020, г.Ростов-на-Дону, ул.Курчатова, 1Д
+                <a href="https://yandex.ru/maps/-/CHfl4P6Y">
+                  344020, г.Ростов-на-Дону, ул.Курчатова, 1Д
+                </a>
               </p>
             </div>
             <div>
@@ -718,7 +716,7 @@
               <a href="https://t.me/+G5n0C3HExp9iMTQy">
                 <img src="images/telegram.png" alt="https://t.me/+G5n0C3HExp9iMTQy">
               </a>
-              <a href="">
+              <a href="https://vk.com/novostroy_yug">
                 <img src="images/vk.png" alt="">
               </a>
               <a href="https://наш.дом.рф/сервисы/единый-реестр-застройщиков/застройщик/16654">
@@ -738,19 +736,20 @@
 
 
   <!-- footer section -->
-  <section class="container-fluid footer_section ">
+<footer class="container-fluid footer_section ">
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By VRTXW
       </p>
     </div>
-  </section>
+</footer>
   <!-- end  footer section -->
 
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/send.js"></script>
 
 
 </body>
