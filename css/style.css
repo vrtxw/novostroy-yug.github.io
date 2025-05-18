@@ -119,44 +119,6 @@ a:hover,
 a:focus {
   color: initial;
 }
-.contact-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
-.form-control2 {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.error-message {
-    color: red;
-    font-size: 0.8rem;
-    margin-top: 0.25rem;
-    display: block;
-}
-
-.btn2 {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn-primary {
-    background-color: #812424;
-    color: white;
-}
-
-.btn-primary:disabled {
-    background-color: #ccc;
-}
 
 .btn,
 .btn:focus {
@@ -357,6 +319,7 @@ a:focus {
 
 .slider_section .detail-box .btn-box {
   margin-top: 45px;
+  scroll-behavior: smooth;
 }
 
 .slider_section .detail-box .btn-box a {
@@ -369,12 +332,14 @@ a:focus {
   border: 1px solid #812424;
   border-radius: 25px;
   margin-bottom: 75px;
+  scroll-behavior: smooth;
 }
 
 .slider_section .detail-box .btn-box a:hover {
   background-color: #812424;
   border-color: transparent;
   color: #e7e7e7;
+  scroll-behavior: smooth;
 }
 
 .find_section {

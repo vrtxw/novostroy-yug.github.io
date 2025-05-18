@@ -16,8 +16,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Reply-To: $email\r\n";
     
     mail($to, $subject, $body, $headers);
-    
-    // Редирект обратно
-    header("Location: thank-you.html");
 }
 ?>
