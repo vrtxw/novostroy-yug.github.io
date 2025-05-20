@@ -82,3 +82,24 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+// Smooth scrolling for all section links
+document.addEventListener('DOMContentLoaded', function() {
+  // Handle all section links
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      // Skip if it's not a section link
+      if (targetId === '#' || !targetId.startsWith('#')) return;
+      
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        e.preventDefault();
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+});
