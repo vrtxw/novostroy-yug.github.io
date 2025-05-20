@@ -89,25 +89,39 @@
         </div>
       </div>
     </section>
-    <!-- end slider section -->
   </div>
+  <!-- end slider section -->
 
   <!-- find section -->
   <section id="find_section" class="find_section ">
     <div class="container">
       <form>
         <div class="form-row">
-          <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Город">
-          </div>
-          <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Расположено ">
-          </div>
-          <div class="col-md-2">
-            <button type="submit">
-              поиск
-            </button>
-          </div>
+<div class="col-md-5">
+    <select class="form-control">
+        <option value="city" disabled selected>Город</option>
+        <option value="rnd">Ростов-на-Дону</option>
+        <option value="aksay">Аксай</option>
+        <option value="btsk">Батайск</option>
+        <option value="zov">Азов</option>
+    </select>
+</div>
+
+<div class="col-md-5">
+    <select class="form-control">
+        <option value="tips" disabled selected>Тип</option>
+        <option value="luxe">Люкс</option>
+        <option value="premium">Премиум</option>
+        <option value="comfort">Комфорт</option>
+        <option value="econom">Эконом</option>
+    </select>
+</div>
+
+<div class="col-md-2">
+    <button type="submit">
+        поиск
+    </button>
+</div>
         </div>
       </form>
     </div>
@@ -257,47 +271,27 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Наши цены
+          Вариации
         </h2>
         <p>
-          Цены составленны ссылаясь на банки наших партнеров
+          Выберите, то что вас интересует!
         </p>
       </div>
       <div class="price_container">
         <div class="box">
           <div class="detail-box">
             <div class="heading-box">
-              <h4>
+              <h3>
                 1
-              </h4>
-              <h6>
+              </h3>
+              <h5>
                 Комнатная
-              </h6>
+              </h5>
             </div>
             <div class="text-box">
               <h2>
                 4.405млн.р. - 6.733млн.р.
               </h2>
-              <ul>
-                <li><h5>
-                  Общая площадь
-                </li></h5>
-                <li>
-                  36.71кв.м. - 56.11кв.м.
-                </li>
-                <li><h5>
-                  Общая жилая площадь
-                </h5></li>
-                <li>
-                  11.57кв.м. - 15.13кв.м.
-                </li>
-                <li><h5>
-                  Наличие балкона
-                </h5></li>
-                <li>
-                  Выборочно
-                </li>
-              </ul>
             </div>
           </div>
           <div class="btn-box">
@@ -309,37 +303,17 @@
         <div class="box">
           <div class="detail-box">
             <div class="heading-box">
-              <h4>
+              <h3>
                 2
-              </h4>
-              <h6>
+              </h3>
+              <h5>
                 Комнатная
-              </h6>
+              </h5>
             </div>
             <div class="text-box">
               <h2>
                 6.454млн.р. - 9.686млн.р.
               </h2>
-              <ul>
-                <li><h5>
-                  Общая площадь
-                </h5></li>
-                <li>
-                  53.79кв.м - 80.72кв.м
-                </li>
-                <li><h5>
-                  Общая жилая площадь
-                </h5></li>
-                <li>
-                  24.19кв.м - 33.88км.м
-                </li>
-                <li><h5>
-                  Наличие балкона
-                </h5></li>
-                <li>
-                  Присутствует
-                </li>
-              </ul>
             </div>
           </div>
           <div class="btn-box">
@@ -351,12 +325,12 @@
         <div class="box">
           <div class="detail-box">
             <div class="heading-box">
-              <h4>
+              <h3>
                 3
-              </h4>
-              <h6>
+              </h3>
+              <h5>
                 Комнатная
-              </h6>
+              </h5>
             </div>
             <div class="text-box">
               <h2>
@@ -393,6 +367,7 @@
       </div>
     </div>
   </section>
+
   <!-- конец цены -->
 
   <!-- выгода -->
@@ -602,43 +577,33 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-5 ">
-          <div class="form_container">
-            <form action="php/send.php" method="POST" id="contactForm" class="contact-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
-                <span class="error-message"></span>
-              </div>
-              <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Ваш email" required>
-                <span class="error-message"></span>
-              </div>
-              <div class="form-group">
-                <textarea name="message" class="form-control" placeholder="Ваше сообщение" required></textarea>
-                <span class="error-message"></span>
-              </div>
-               <div>
-                <label><input type="checkbox" class="check-box" required></label>Я ознакомлен с 
-                  <a href="ps/novostr2.pdf" target="_blank" rel="noopener noreferrer">
-                  Пользовательским соглашением
-                  </a>
-              <label> и <a href="ps/novostr3.pdf" target="_blank" rel="noopener noreferrer">
-                  Положением об обработке персональных данных
-                </a>
-              </label>
-            </div>
-                <button type="submit" class="d-flex">
-                <span class="button-text">Отправить</span>
-                <span class="spinner-border spinner-border-sm d-none" role="status"></span>
-                </button>
-                <input type="text" name="honeypot" style="display:none"> 
-            </form>
-          </div>
+<div class="feedback-container">
+    <h2>Обратная связь</h2>
+    <form class="feedback-form">
+        <div class="form-group">
+            <label for="surname">Фамилия*</label>
+            <input type="text" id="surname" name="surname" required>
         </div>
+
+        <div class="form-group">
+            <label for="email">Электронная почта*</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Сообщение*</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div class="form-footer">
+            <p class="required-text">* Обязательные поля для заполнения</p>
+            <button type="submit" class="submit-btn">Отправить</button>
+        </div>
+    </form>
+</div>
       </div>
     </div>
   </section>
-
   <!-- конец контакты -->
 
 
@@ -663,7 +628,7 @@
             </div>
             <div>
               <div class="img-box">
-                <img src="images/phone.png" width="12px" alt="">
+                <img src="images/phone.png" width="12px" alt="Номер">
               </div>
               <p>
                 +7 (993) 445-36-12
@@ -685,8 +650,8 @@
               Информация
             </h5>
             <p>
+              Цены будут меняться взависимости от возведения новых ЖК</p>
               Сайт находится в стадии разработки
-            </p>
           </div>
         </div>
 
@@ -749,6 +714,7 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
   <script type="text/javascript" src="js/send.js"></script>
+  <script type="text/javascript" src="js/finder.js"></script>
 
 
 </body>
