@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
   <!-- Basic -->
@@ -8,11 +8,11 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta name="keywords" content="квартиры, недвижимость, продажа квартир, новостройки, Ростов-на-Дону, Аксай, Батайск, Азов" />
+  <meta name="description" content="Продажа современных квартир и домов в Ростове-на-Дону и области. Широкий выбор планировок, качественная отделка, доступные цены." />
+  <meta name="author" content="Deep Real Estate" />
 
-  <title>Главная</title>
+  <title>Главная - Продажа квартир и домов</title>
   <link rel="shortcut icon" type="image/jpg" href="images/11.png"/>
 
   <!-- bootstrap core css -->
@@ -32,9 +32,9 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" />
+            <img src="images/logo.png" alt="Deep Real Estate логотип" />
           </a>
-          <div class="navbar-collapse" id="">
+          <div class="navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav justify-content-between ">
             </ul>
 
@@ -95,33 +95,33 @@
   <!-- find section -->
   <section id="find_section" class="find_section ">
     <div class="container">
-      <form>
+      <form action="php/search.php" method="GET" id="searchForm">
         <div class="form-row">
-<div class="col-md-5">
-    <select class="form-control">
-        <option value="city" disabled selected>Город</option>
-        <option value="rnd">Ростов-на-Дону</option>
-        <option value="aksay">Аксай</option>
-        <option value="btsk">Батайск</option>
-        <option value="zov">Азов</option>
-    </select>
-</div>
+          <div class="col-md-5">
+              <select class="form-control" name="city" id="citySelect" required>
+                  <option value="" disabled selected>Город</option>
+                  <option value="rnd">Ростов-на-Дону</option>
+                  <option value="aksay">Аксай</option>
+                  <option value="btsk">Батайск</option>
+                  <option value="zov">Азов</option>
+              </select>
+          </div>
 
-<div class="col-md-5">
-    <select class="form-control">
-        <option value="tips" disabled selected>Тип</option>
-        <option value="luxe">Люкс</option>
-        <option value="premium">Премиум</option>
-        <option value="comfort">Комфорт</option>
-        <option value="econom">Эконом</option>
-    </select>
-</div>
+          <div class="col-md-5">
+              <select class="form-control" name="type" id="typeSelect" required>
+                  <option value="" disabled selected>Тип</option>
+                  <option value="luxe">Люкс</option>
+                  <option value="premium">Премиум</option>
+                  <option value="comfort">Комфорт</option>
+                  <option value="econom">Эконом</option>
+              </select>
+          </div>
 
-<div class="col-md-2">
-    <button type="submit">
-        поиск
-    </button>
-</div>
+          <div class="col-md-2">
+              <button type="submit" aria-label="Поиск">
+                  поиск
+              </button>
+          </div>
         </div>
       </form>
     </div>
@@ -134,13 +134,13 @@
 
   <section class="about_section layout_padding-bottom">
     <div class="square-box">
-      <img src="images/square.png" alt="">
+      <img src="images/square.png" alt="Декоративный элемент">
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
+            <img src="images/about-img.jpg" alt="Фото нашего жилого комплекса">
           </div>
         </div>
         <div class="col-md-6">
@@ -318,48 +318,6 @@
           </div>
           <div class="btn-box">
             <a href="appartaments2.html">
-              Перейти
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <div class="heading-box">
-              <h3>
-                3
-              </h3>
-              <h5>
-                Комнатная
-              </h5>
-            </div>
-            <div class="text-box">
-              <h2>
-                Временно отсутствует
-              </h2>
-              <ul>
-                <li><h5>
-                  Общая площадь
-                </h5></li>
-                <li>
-                  -
-                </li>
-                <li><h5>
-                  Общая жилая площадь
-                </h5></li>
-                <li>
-                  -
-                </li>
-                <li><h5>
-                  Наличие балкона
-                </h5></li>
-                <li>
-                  -
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="btn-box">
-            <a href="index.html">
               Перейти
             </a>
           </div>
@@ -545,10 +503,12 @@
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
           </a>
         </div>
 
@@ -577,30 +537,43 @@
             </div>
           </div>
         </div>
-<div class="feedback-container">
-    <h2>Обратная связь</h2>
-    <form class="feedback-form">
-        <div class="form-group">
-            <label for="surname">Фамилия*</label>
-            <input type="text" id="surname" name="surname" required>
+        <div class="col-lg-4 col-md-5 ">
+          <div class="form_container">
+            <form action="php/send.php" method="POST" id="contactForm" class="contact-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Ваше имя" required minlength="2" maxlength="50">
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Ваш email" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="form-control" placeholder="Ваше сообщение" required minlength="10" maxlength="1000"></textarea>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label class="checkbox-container">
+                  <input type="checkbox" class="check-box" required>
+                  <span class="checkmark"></span>
+                  Я ознакомлен с 
+                  <a href="ps/novostr2.pdf" target="_blank" rel="noopener noreferrer">
+                    Пользовательским соглашением
+                  </a>
+                  и 
+                  <a href="ps/novostr3.pdf" target="_blank" rel="noopener noreferrer">
+                    Положением об обработке персональных данных
+                  </a>
+                </label>
+                <span class="error-message"></span>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span class="button-text">Отправить</span>
+                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+              </button>
+            </form>
+          </div>
         </div>
-
-        <div class="form-group">
-            <label for="email">Электронная почта*</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="form-group">
-            <label for="message">Сообщение*</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-
-        <div class="form-footer">
-            <p class="required-text">* Обязательные поля для заполнения</p>
-            <button type="submit" class="submit-btn">Отправить</button>
-        </div>
-    </form>
-</div>
       </div>
     </div>
   </section>

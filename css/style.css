@@ -1111,112 +1111,79 @@ a:focus {
   right: 10px;
 }
 
-.feedback-container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 30px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.contact_section {
+  position: relative;
 }
 
-.feedback-container h2 {
-    margin-bottom: 30px;
-    color: #333;
-    font-size: 24px;
-    text-align: center;
+.contact_section .heading_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
 }
 
-.feedback-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.contact_section .container-fluid {
+  background-color: #865926;
+  color: #ffffff;
 }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.contact_section .form_container {
+  padding: 45px 0 45px 15px;
 }
 
-.form-group label {
-    color: #555;
-    font-size: 14px;
-    font-weight: 500;
+.contact_section input {
+  width: 100%;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  color: #252525;
+  margin-top: 25px;
+  padding: 12px;
 }
 
-.form-group input,
-.form-group textarea {
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
-    transition: border-color 0.3s ease;
+.contact_section input::-webkit-input-placeholder {
+  color: #2a2a2c;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-    border-color: #4CAF50;
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.1);
+.contact_section input:-ms-input-placeholder {
+  color: #2a2a2c;
 }
 
-.form-group textarea {
-    resize: vertical;
-    min-height: 120px;
+.contact_section input::-ms-input-placeholder {
+  color: #2a2a2c;
 }
 
-.form-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+.contact_section input::placeholder {
+  color: #2a2a2c;
 }
 
-.required-text {
-    color: #666;
-    font-size: 12px;
-    font-style: italic;
+.contact_section input.message-box {
+  padding: 45px 12px;
 }
 
-.submit-btn {
-    background: #4CAF50;
-    color: white;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.contact_section input.check-box {
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
 }
 
-.submit-btn:hover {
-    background: #45a049;
+.contact_section button {
+  padding: 10px 65px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background: #f97616;
+  border-radius: 25px;
+  margin: 45px 0 0 auto;
+  text-transform: uppercase;
 }
 
-/* Стили для валидации */
-.form-group input:invalid,
-.form-group textarea:invalid {
-    border-color: #ff6b6b;
+.contact_section .map_container {
+  height: 100%;
 }
 
-/* Адаптивность */
-@media (max-width: 768px) {
-    .feedback-container {
-        margin: 20px;
-        padding: 20px;
-    }
-
-    .form-footer {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
-
-    .submit-btn {
-        width: 100%;
-    }
+.contact_section .map_container .map-responsive {
+  height: 100%;
 }
 
 .info_section {
