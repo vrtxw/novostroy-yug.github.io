@@ -35,9 +35,6 @@
             <img src="images/logo.png" alt="Deep Real Estate логотип" />
           </a>
           <div class="navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav justify-content-between ">
-            </ul>
-
             <div class="custom_menu-btn">
               <button onclick="openNav()">
                 <span class="s-1">
@@ -538,7 +535,9 @@
         <div class="col-md-6 px-0">
           <div class="map_container">
             <div class="map-responsive">
-              <iframe src="https://yandex.ru/map-widget/v1/?ll=39.774356%2C47.265005&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQzMDYwODYxEkzQoNC-0YHRgdC40Y8sINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDRg9C70LjRhtCwINCa0YPRgNGH0LDRgtC-0LLQsCwgMdCUIgoN8BgfQhVdDz1C&z=17.14" width="100%" height="550" frameborder="0" allowfullscreen="true" style="border:0;" loading="lazy"></iframe>
+              <iframe src="https://yandex.ru/map-widget/v1/?ll=39.774356%2C47.265005&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQzMDYwODYxEkzQoNC-0YHRgdC40Y8sINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDRg9C70LjRhtCwINCa0YPRgdGH0LDRgtC-0LLQsCwgMdCUIgoN8BgfQhVdDz1C&z=17.14" 
+                      width="100%" height="550" frameborder="0" allowfullscreen="true" style="border:0;" loading="lazy"
+                      title="Карта расположения офиса" lang="ru"></iframe>
             </div>
           </div>
         </div>
@@ -556,8 +555,8 @@
               <div class="form-group">
                 <label for="phone" class="sr-only">Ваш телефон</label>
                 <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ваш телефон" required
-                       pattern="[\+]?[0-9]{1}[\s\-]?[\(]?[0-9]{3}[\)]?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}"
-                       title="Введите корректный номер телефона">
+                       pattern="^[\+]?[0-9\s\-\(\)]{10,20}$"
+                       title="Введите корректный номер телефона (от 10 до 20 символов)">
                 <span class="error-message" aria-live="polite"></span>
               </div>
 
@@ -652,8 +651,9 @@
               Информация
             </h5>
             <p>
-              Цены будут меняться взависимости от возведения новых ЖК</p>
-              Сайт находится в стадии разработки
+              Цены будут меняться в зависимости от возведения новых ЖК.
+              Сайт находится в стадии разработки.
+            </p>
           </div>
         </div>
 
@@ -687,9 +687,6 @@
               </a>
               <a href="https://наш.дом.рф/сервисы/единый-реестр-застройщиков/застройщик/16654" target="_blank" rel="noopener noreferrer">
                 <img src="images/domrf.png" alt="ДомРф">
-              </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img src="images/youtube.png" alt="Youtube">
               </a>
             </div>
           </div>
