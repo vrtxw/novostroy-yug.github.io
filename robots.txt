@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /php/
+Disallow: /ps/
+Disallow: /cgi-bin/
+Disallow: /.git/
+Host: https://sz-novostroi-yug.ru
+Sitemap: https://sz-novostroi-yug.ru/sitemap.xml 

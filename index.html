@@ -2,68 +2,69 @@
 <html lang="ru">
 
 <head>
-  <!-- Basic -->
+  <!-- Базовые метатеги -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
+  <!-- Метатеги для мобильных устройств -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta name="theme-color" content="#812424" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- Метатеги сайта -->
   <meta name="keywords" content="квартиры, недвижимость, продажа квартир, новостройки, Ростов-на-Дону, Аксай, Батайск, Азов" />
   <meta name="description" content="Продажа современных квартир и домов в Ростове-на-Дону и области. Широкий выбор планировок, качественная отделка, доступные цены." />
-  <meta name="author" content="Deep Real Estate" />
+  <meta name="author" content="ООО СЗ НОВОСТРОЙ-ЮГ" />
 
-  <title>Главная - Продажа квартир и домов</title>
-  <link rel="shortcut icon" type="image/jpg" href="images/11.png"/>
+  <title>ООО СЗ "НОВОСТРОЙ-ЮГ" - Продажа квартир в Ростове-на-Дону</title>
+  <link rel="shortcut icon" type="image/png" href="images/11.png"/>
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Стили -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
+
 <body>
+  <!-- Основной контейнер -->
   <div class="hero_area">
-    <!-- header section strats -->
+    <!-- Шапка сайта -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
+        <nav class="navbar navbar-expand-lg custom_nav-container" aria-label="Основная навигация">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="Deep Real Estate логотип" />
+            <img src="images/logo.png" alt="ООО СЗ "НОВОСТРОЙ-ЮГ логотоип" />
           </a>
+          
+          <!-- Мобильное меню -->
           <div class="navbar-collapse" id="navbarCollapse">
             <div class="custom_menu-btn">
-              <button onclick="openNav()">
-                <span class="s-1">
-
-                </span>
-                <span class="s-2">
-
-                </span>
-                <span class="s-3">
-
-                </span>
+              <button onclick="openNav()" aria-label="Открыть меню">
+                <span class="s-1" aria-hidden="true"></span>
+                <span class="s-2" aria-hidden="true"></span>
+                <span class="s-3" aria-hidden="true"></span>
               </button>
             </div>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="index.html">ГЛАВНАЯ</a>
+            
+            <!-- Оверлей меню -->
+            <div id="myNav" class="overlay" aria-hidden="true">
+              <nav class="overlay-content" aria-label="Мобильное меню">
+                <a href="index.html" aria-current="page">ГЛАВНАЯ</a>
                 <a href="about.html">О НАС</a>
                 <a href="house.html">ПРОЕКТЫ</a>
                 <a href="price.html">ЦЕНЫ</a>
                 <a href="contact.html">КОНТАКТЫ</a>
-              </div>
+              </nav>
             </div>
           </div>
         </nav>
       </div>
     </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
+
+    <!-- Секция слайдера -->
+    <section class="slider_section">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-4 offset-md-1">
@@ -74,7 +75,7 @@
                 Квартиры
               </h1>
               <p>
-                Строим с размахом, создаём простор для жизни!
+                Создаём комфортное пространство для вашей жизни!
               </p>
               <div class="btn-box">
                 <a href="#find_section">
@@ -87,12 +88,11 @@
       </div>
     </section>
   </div>
-  <!-- end slider section -->
 
-  <!-- find section -->
-  <section id="find_section" class="find_section ">
+  <!-- Секция поиска -->
+  <section id="find_section" class="find_section">
     <div class="container">
-      <form action="php/search.php" method="GET" id="searchForm">
+      <form action="php/search.php" method="GET" id="searchForm" class="search-form">
         <div class="form-row">
           <div class="col-md-5">
               <select class="form-control" name="city" id="citySelect" required>
@@ -142,21 +142,19 @@
         </div>
         <div class="col-md-6">
           <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                О Наших Квартирах
-              </h2>
-            </div>
-            <p>
-              В наших новых квартирах вы найдете всё для комфортной и счастливой жизни! Просторные светлые комнаты, современные планировки, качественная отделка и потрясающие виды из окон создадут атмосферу уюта и вдохновения. Безопасность, развитая инфраструктура и зеленые дворы — идеальный выбор для вашей семьи. Ваш новый дом ждет вас!
+            <h2 class="section-title">О компании</h2>
+            <p class="section-description">
+              Мы создаем не просто квартиры – мы создаем пространство для счастливой жизни! В наших проектах вы найдете:
             </p>
+            <ul class="features-list">
+              <li>Просторные светлые помещения</li>
+              <li>Современные планировочные решения</li>
+              <li>Качественную отделку от застройщика</li>
+              <li>Развитую инфраструктуру района</li>
+            </ul>
             <div class="btn-box">
-              <a href="about.html">
-                Подробнее
-              </a>
-              <a href="#sale_section" class="ml-3">
-                Дальше
-              </a>
+              <a href="about.html" class="primary-btn">Подробнее о нас</a>
+              <a href="#sale_section" class="secondary-btn">Наши преимущества</a>
             </div>
           </div>
         </div>
@@ -172,7 +170,7 @@
     <div class="container-fluid">
       <div class="heading_container">
         <h2>
-          Продажа Квартир
+          Наши приоритеты
         </h2>
         <p>
           Много вариаций планировок и ремонтов, создадим для вас комфорт!
@@ -432,7 +430,7 @@
                 Дешевые цены
               </h3>
               <h5>
-                120т.р. - 1кв.м.
+                120 тыс. руб./м²
               </h5>
             </div>
           </div>
@@ -535,15 +533,16 @@
         <div class="col-md-6 px-0">
           <div class="map_container">
             <div class="map-responsive">
-              <iframe src="https://yandex.ru/map-widget/v1/?ll=39.774356%2C47.265005&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQzMDYwODYxEkzQoNC-0YHRgdC40Y8sINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDRg9C70LjRhtCwINCa0YPRgdGH0LDRgtC-0LLQsCwgMdCUIgoN8BgfQhVdDz1C&z=17.14" 
-                      width="100%" height="550" frameborder="0" allowfullscreen="true" style="border:0;" loading="lazy"
-                      title="Карта расположения офиса" lang="ru"></iframe>
+              <iframe src="https://yandex.ru/map-widget/v1/?ll=39.774356%2C47.265005&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQzMDYwODYxEkzQoNC-0YHRgdC40Y8sINCg0L7RgdGC0L7Qsi3QvdCwLdCU0L7QvdGDLCDRg9C70LjRhtCwINCa0YPRgNGH0LDRgtC-0LLQsCwgMdCUIgoN8BgfQhVdDz1C&z=17.14" width="100%" height="550" frameborder="0" allowfullscreen="true" style="border:0;" loading="lazy"></iframe>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-5">
           <div class="form_container">
             <form action="php/send.php" method="POST" id="contactForm" class="contact-form">
+              <input type="hidden" name="csrf_token" value="">
+              <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+              
               <div class="form-group">
                 <label for="name" class="sr-only">Ваше имя</label>
                 <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя" required 
@@ -554,9 +553,9 @@
               
               <div class="form-group">
                 <label for="phone" class="sr-only">Ваш телефон</label>
-                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ваш телефон" required
-                       pattern="^[\+]?[0-9\s\-\(\)]{10,20}$"
-                       title="Введите корректный номер телефона (от 10 до 20 символов)">
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ваш телефон"
+                       pattern="[\+]?[0-9]{1}[\s\-]?[\(]?[0-9]{3}[\)]?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}"
+                       title="Введите корректный номер телефона">
                 <span class="error-message" aria-live="polite"></span>
               </div>
 
@@ -595,9 +594,6 @@
                 <span class="button-text">Отправить</span>
                 <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
               </button>
-
-              <!-- Honeypot field -->
-              <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
             </form>
           </div>
         </div>
@@ -651,9 +647,8 @@
               Информация
             </h5>
             <p>
-              Цены будут меняться в зависимости от возведения новых ЖК.
-              Сайт находится в стадии разработки.
-            </p>
+              Цены будут меняться в зависимости от возведения новых ЖК</p>
+              Сайт находится в стадии разработки
           </div>
         </div>
 
@@ -688,6 +683,9 @@
               <a href="https://наш.дом.рф/сервисы/единый-реестр-застройщиков/застройщик/16654" target="_blank" rel="noopener noreferrer">
                 <img src="images/domrf.png" alt="ДомРф">
               </a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img src="images/youtube.png" alt="Youtube">
+              </a>
             </div>
           </div>
         </div>
@@ -712,8 +710,10 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script type="text/javascript" src="js/send.js"></script>
   <script type="text/javascript" src="js/finder.js"></script>
+  <script src="js/search.js"></script>
 
 
 </body>

@@ -1,0 +1,85 @@
+# Включаем механизм перезаписи URL
+RewriteEngine On
+
+# Редирект с HTTP на HTTPS (только если не HTTPS)
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Редирект с www на без www (только если есть www)
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://%1%{REQUEST_URI} [L,R=301]
+
+# Редирект с HTML на PHP (только если файл существует)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ $1.php [L,R=301]
+
+# Запрет доступа к системным директориям
+Options -Indexes
+
+# Защита системных файлов
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^(composer\.json|composer\.lock|package\.json|package-lock\.json|README\.md)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Защита папки admin
+<FilesMatch "^admin/">
+    Order allow,deny
+    Allow from all
+    AuthType Basic
+    AuthName "Restricted Area"
+    AuthUserFile /path/to/.htpasswd
+    Require valid-user
+</FilesMatch>
+
+# Включаем сжатие GZIP
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# Настройка кэширования
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Настройка безопасности заголовков
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options nosniff
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options SAMEORIGIN
+</IfModule>
+
+# Настройка PHP
+<IfModule mod_php.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
+
+# Обработка ошибок
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 500 /500.php 

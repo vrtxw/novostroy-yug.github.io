@@ -91,6 +91,9 @@
         <div class="col-lg-4 col-md-5">
           <div class="form_container">
             <form action="php/send.php" method="POST" id="contactForm" class="contact-form">
+              <input type="hidden" name="csrf_token" value="">
+              <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+              
               <div class="form-group">
                 <label for="name" class="sr-only">Ваше имя</label>
                 <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя" required 
@@ -101,7 +104,7 @@
               
               <div class="form-group">
                 <label for="phone" class="sr-only">Ваш телефон</label>
-                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ваш телефон" required
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ваш телефон"
                        pattern="[\+]?[0-9]{1}[\s\-]?[\(]?[0-9]{3}[\)]?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}"
                        title="Введите корректный номер телефона">
                 <span class="error-message" aria-live="polite"></span>
@@ -142,9 +145,6 @@
                 <span class="button-text">Отправить</span>
                 <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
               </button>
-
-              <!-- Honeypot field -->
-              <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
             </form>
           </div>
         </div>
@@ -152,11 +152,11 @@
     </div>
   </section>
 
-  <!-- end contact section -->
+  <!-- конец контакты -->
 
 
 
-  <!-- info section -->
+  <!-- связь  -->
   <section class="info_section ">
     <div class="container">
       <div class="row">
@@ -170,7 +170,8 @@
                 <img src="images/location.png" width="18px" alt="">
               </div>
               <p>
-                344020, г.Ростов-на-Дону, ул.Курчатова, 1Д
+                  344020, г.Ростов-на-Дону, ул.Курчатова, 1Д
+                </a>
               </p>
             </div>
             <div>
@@ -197,7 +198,7 @@
               Информация
             </h5>
             <p>
-              Цены будут меняться взависимости от возведения новых ЖК</p>
+              Цены будут меняться в зависимости от возведения новых ЖК</p>
               Сайт находится в стадии разработки
           </div>
         </div>
@@ -243,17 +244,17 @@
     </div>
   </section>
 
-  <!-- end info_section -->
+  <!-- конец связь -->
 
 
-  <!-- footer section -->
-  <section class="container-fluid footer_section ">
+  <!-- нога -->
+<footer class="container-fluid footer_section ">
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By VRTXW
       </p>
     </div>
-  </section>
+</footer>
   <!-- end  footer section -->
 
 

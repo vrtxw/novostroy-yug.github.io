@@ -1,8 +1,30 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+  .hero_area {
+    background-size: 55% 100%;
+  }
+  
+  .slider_section .detail-box h1 {
+    font-size: 3.5rem;
+  }
+}
 
 @media (max-width: 992px) {
+  .hero_area {
+    background-size: 45% 100%;
+  }
+  
   .User_option {
     display: none;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
   }
 
   .sale_section .sale_container .box {
@@ -10,22 +32,15 @@
     flex-basis: 48%;
     margin: 1%;
   }
-
-  .sale_section .sale_container .box {
-    -ms-flex-preferred-size: 98%;
-    flex-basis: 98%;
-    margin: 1%;
-
-  }
 }
 
 @media (max-width: 768px) {
   .hero_area {
     background: none;
-    background-color: #e9eefc;
-    height: auto;
+    background-color: #ffffff;
+    min-height: auto;
+    padding-bottom: 60px;
   }
-
 
   .custom_menu-btn button span {
     background-color: #812424cc;
@@ -35,17 +50,19 @@
     background-color: #ffffff;
   }
 
-
   .slider_section {
-    text-align: center;
+    padding: 35px 0;
   }
 
   .slider_section .detail-box {
     margin-bottom: 45px;
+    padding: 0 20px;
+    text-align: center;
   }
 
-  .slider_section {
-    padding: 35px 0 75px 0;
+  .slider_section .detail-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
   }
 
   .about_section {
@@ -65,7 +82,7 @@
     margin-top: 45px;
   }
 
-  .info_section .row>div {
+  .info_section .row > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,19 +96,22 @@
 
   .contact_section .map_container {
     padding: 0;
-    height: 450px;
+    height: 350px;
+    margin-bottom: 30px;
   }
 
   .contact_section .form_container {
-    padding: 45px 0;
+    padding: 30px 15px;
   }
 
   .client_section .client_container {
-    width: 95%;
+    width: 100%;
+    padding: 15px;
   }
 
   .client_section .client_container .box {
     padding-bottom: 45px;
+    margin: 30px 0;
   }
 
   .client_section .client_container .carousel-control-prev,
@@ -105,7 +125,6 @@
 
   .client_section .client_container .carousel-control-next {
     right: calc(50% - 50px);
-
   }
 
   .info_contact {
@@ -118,8 +137,9 @@
     margin-top: 5px;
   }
 
-  .info_section .info_contact>div {
-    align-items: flex-start;
+  .info_section .info_contact > div {
+    align-items: center;
+    margin: 10px 0;
   }
 
   .info_section .info_form h5 {
@@ -128,20 +148,103 @@
 
   .info_section .info_form .social_box {
     justify-content: center;
+    margin-top: 25px;
   }
 
   .info_section .info_form .social_box a {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 
   .footer_section p {
-    width: 85%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Улучшение навигации для мобильных устройств */
+  .navbar-brand {
+    padding: 10px 0;
+  }
+
+  .custom_nav-container {
+    padding: 10px 0;
+  }
+
+  .custom_menu-btn {
+    margin-right: 15px;
+  }
+
+  /* Улучшение отображения форм */
+  .contact_section input,
+  .info_section .info_form form input {
+    padding: 12px 15px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .contact_section button,
+  .info_section .info_form form button {
+    padding: 10px 45px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  /* Улучшение видимости мобильного меню */
+  .overlay {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+  }
+
+  .menu_width {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .overlay-content {
+    padding: 20px;
+    margin-top: 60px;
+  }
+
+  .overlay a {
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  /* Исправление проблем с контейнером */
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Улучшение отображения навигации */
+  .custom_nav-container {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .navbar-brand img {
+    width: 150px;
   }
 }
 
 @media (max-width: 576px) {
   .slider_section .detail-box h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  .slider_section .detail-box p {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+
+  .custom_nav-container {
+    padding: 10px 0;
+  }
+
+  .navbar-brand img {
+    max-width: 120px;
   }
 
   .client_section .client_container div#carouselExampleControls {
@@ -151,37 +254,148 @@
   .client_section .client_container .box {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
 
+  .client_section .client_container .box .img-box {
+    margin: 0 0 15px 0;
   }
 
   .client_section .client_container .box .detail-box {
-    margin-top: 25px;
+    text-align: center;
   }
 
-  .client_section .client_container div#carouselExampleControls::before {
-    height: 165px;
-    left: 30%;
-    top: 43px;
-
+  .info_section {
+    padding: 60px 0 30px 0;
   }
 
-  .footer_section p {
+  .info_section h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sale_section .sale_container .box {
+    flex-basis: 100%;
+    margin: 15px 0;
+  }
+
+  /* Улучшение отображения кнопок */
+  .custom_menu-btn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .custom_menu-btn button span {
+    height: 2px;
+    margin: 3px 0;
+  }
+
+  /* Улучшение отображения изображений */
+  .slider_section .img-box img,
+  .about_section .img-box img,
+  .deal_section .img-box img {
     width: 100%;
+    height: auto;
+  }
+
+  /* Улучшение отображения текста */
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  /* Улучшение отступов */
+  .section_padding {
+    padding: 45px 0;
+  }
+
+  .mb-5 {
+    margin-bottom: 2rem !important;
+  }
+
+  .mt-5 {
+    margin-top: 2rem !important;
   }
 }
-
-@media (max-width: 480px) {}
 
 @media (max-width: 420px) {
   .client_section .client_container div#carouselExampleControls::before {
     left: 20%;
   }
-}
 
-@media (max-width: 360px) {}
+  .slider_section .detail-box h1 {
+    font-size: 2.5rem;
+  }
+}
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+}
+
+/* Исправление проблем с прокруткой при открытом меню */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Добавление поддержки темной темы */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+
+  .bg-white {
+    background-color: #1a1a1a !important;
+  }
+
+  .text-dark {
+    color: #ffffff !important;
+  }
+
+  input, textarea {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+  }
+
+  .navbar-light {
+    background-color: #1a1a1a;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+}
+
+/* Улучшение производительности анимаций на мобильных устройствах */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Добавление поддержки высоких разрешений экрана */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero_area,
+  .about_section,
+  .deal_section {
+    background-size: cover;
+    background-position: center;
+  }
+
+  img {
+    image-rendering: -webkit-optimize-contrast;
   }
 }
