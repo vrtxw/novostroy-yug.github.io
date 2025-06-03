@@ -37,9 +37,8 @@
 @media (max-width: 768px) {
   .hero_area {
     background: none;
-    background-color: #ffffff;
-    min-height: auto;
-    padding-bottom: 60px;
+    background-color: #e9eefc;
+    height: auto;
   }
 
   .custom_menu-btn button span {
@@ -51,18 +50,12 @@
   }
 
   .slider_section {
-    padding: 35px 0;
+    text-align: center;
+    padding: 35px 0 75px 0;
   }
 
   .slider_section .detail-box {
     margin-bottom: 45px;
-    padding: 0 20px;
-    text-align: center;
-  }
-
-  .slider_section .detail-box h1 {
-    font-size: 2.5rem;
-    margin-bottom: 25px;
   }
 
   .about_section {
@@ -96,22 +89,19 @@
 
   .contact_section .map_container {
     padding: 0;
-    height: 350px;
-    margin-bottom: 30px;
+    height: 450px;
   }
 
   .contact_section .form_container {
-    padding: 30px 15px;
+    padding: 45px 0;
   }
 
   .client_section .client_container {
-    width: 100%;
-    padding: 15px;
+    width: 95%;
   }
 
   .client_section .client_container .box {
     padding-bottom: 45px;
-    margin: 30px 0;
   }
 
   .client_section .client_container .carousel-control-prev,
@@ -138,8 +128,7 @@
   }
 
   .info_section .info_contact > div {
-    align-items: center;
-    margin: 10px 0;
+    align-items: flex-start;
   }
 
   .info_section .info_form h5 {
@@ -148,103 +137,39 @@
 
   .info_section .info_form .social_box {
     justify-content: center;
-    margin-top: 25px;
   }
 
   .info_section .info_form .social_box a {
-    margin: 0 10px;
+    margin: 0 15px;
   }
 
   .footer_section p {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
+    width: 85%;
   }
 
-  /* Улучшение навигации для мобильных устройств */
-  .navbar-brand {
-    padding: 10px 0;
-  }
-
-  .custom_nav-container {
-    padding: 10px 0;
-  }
-
-  .custom_menu-btn {
-    margin-right: 15px;
-  }
-
-  /* Улучшение отображения форм */
-  .contact_section input,
-  .info_section .info_form form input {
-    padding: 12px 15px;
-    margin-top: 15px;
-    font-size: 14px;
-  }
-
-  .contact_section button,
-  .info_section .info_form form button {
-    padding: 10px 45px;
-    font-size: 14px;
-    margin-top: 20px;
-  }
-
-  /* Улучшение видимости мобильного меню */
+  /* Mobile menu improvements */
   .overlay {
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease;
-  }
-
-  .menu_width {
-    opacity: 1 !important;
-    visibility: visible !important;
+    background-color: rgba(129, 36, 36, 0.95);
   }
 
   .overlay-content {
     padding: 20px;
-    margin-top: 60px;
   }
 
   .overlay a {
-    padding: 15px 0;
-    font-size: 18px;
+    padding: 12px 0;
+    font-size: 20px;
+    transition: all 0.3s ease;
   }
 
-  /* Исправление проблем с контейнером */
-  .container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  /* Улучшение отображения навигации */
-  .custom_nav-container {
-    height: auto;
-    padding: 15px 0;
-  }
-
-  .navbar-brand img {
-    width: 150px;
+  .custom_menu-btn {
+    z-index: 1000;
   }
 }
 
 @media (max-width: 576px) {
   .slider_section .detail-box h1 {
-    font-size: 2rem;
-  }
-
-  .slider_section .detail-box p {
-    font-size: 14px;
-    margin: 15px 0;
-  }
-
-  .custom_nav-container {
-    padding: 10px 0;
-  }
-
-  .navbar-brand img {
-    max-width: 120px;
+    font-size: 3rem;
   }
 
   .client_section .client_container div#carouselExampleControls {
@@ -254,75 +179,33 @@
   .client_section .client_container .box {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-  }
-
-  .client_section .client_container .box .img-box {
-    margin: 0 0 15px 0;
   }
 
   .client_section .client_container .box .detail-box {
-    text-align: center;
+    margin-top: 25px;
   }
 
-  .info_section {
-    padding: 60px 0 30px 0;
+  .client_section .client_container div#carouselExampleControls::before {
+    height: 165px;
+    left: 30%;
+    top: 43px;
   }
 
-  .info_section h5 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  .footer_section p {
+    width: 100%;
+  }
+
+  /* Improved mobile form elements */
+  .form-control {
+    font-size: 16px;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
   .sale_section .sale_container .box {
-    flex-basis: 100%;
-    margin: 15px 0;
-  }
-
-  /* Улучшение отображения кнопок */
-  .custom_menu-btn {
-    width: 35px;
-    height: 35px;
-  }
-
-  .custom_menu-btn button span {
-    height: 2px;
-    margin: 3px 0;
-  }
-
-  /* Улучшение отображения изображений */
-  .slider_section .img-box img,
-  .about_section .img-box img,
-  .deal_section .img-box img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* Улучшение отображения текста */
-  p {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 22px;
-  }
-
-  /* Улучшение отступов */
-  .section_padding {
-    padding: 45px 0;
-  }
-
-  .mb-5 {
-    margin-bottom: 2rem !important;
-  }
-
-  .mt-5 {
-    margin-top: 2rem !important;
+    -ms-flex-preferred-size: 98%;
+    flex-basis: 98%;
+    margin: 1%;
   }
 }
 
@@ -339,63 +222,5 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
-  }
-}
-
-/* Исправление проблем с прокруткой при открытом меню */
-body.menu-open {
-  overflow: hidden;
-}
-
-/* Добавление поддержки темной темы */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-  }
-
-  .bg-white {
-    background-color: #1a1a1a !important;
-  }
-
-  .text-dark {
-    color: #ffffff !important;
-  }
-
-  input, textarea {
-    background-color: #333333 !important;
-    color: #ffffff !important;
-  }
-
-  .navbar-light {
-    background-color: #1a1a1a;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
-  }
-}
-
-/* Улучшение производительности анимаций на мобильных устройствах */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* Добавление поддержки высоких разрешений экрана */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .hero_area,
-  .about_section,
-  .deal_section {
-    background-size: cover;
-    background-position: center;
-  }
-
-  img {
-    image-rendering: -webkit-optimize-contrast;
   }
 }
