@@ -1,32 +1,51 @@
 <!-- send.php -->
 <?php
-header('Content-Type: application/json');
+require_once 'config.php';
 
-function sendJsonResponse($success, $message) {
-    echo json_encode(['success' => $success, 'message' => $message]);
+// Получаем параметры поиска
+$location = isset($_GET['location']) ? trim($_GET['location']) : '';
+$propertyClass = isset($_GET['class']) ? trim($_GET['class']) : '';
+
+// Подготавливаем ответ
+$response = array(
+    'success' => false,
+    'message' => '',
+    'redirect' => ''
+);
+
+// Проверяем параметры поиска
+if (empty($location) || empty($propertyClass)) {
+    $response['message'] = 'Пожалуйста, выберите город и класс недвижимости';
+    echo json_encode($response);
     exit;
 }
 
-// Проверка метода запроса
-if ($_SERVER["REQUEST_METHOD"] != "POST") {
-    sendJsonResponse(false, 'Неверный метод запроса');
-}
+// Ищем ЖК по заданным параметрам
+$sql = "SELECT rc.name, rc.class, l.name as location
+        FROM residential_complexes rc
+        JOIN complex_locations cl ON rc.id = cl.complex_id
+        JOIN locations l ON cl.location_id = l.id
+        WHERE l.name = ? AND rc.class = ?
+        AND l.is_active = TRUE";
 
-// Проверка наличия всех полей
-if (!isset($_POST['city']) || !isset($_POST['type'])) {
-    sendJsonResponse(false, 'Пожалуйста, выберите город и тип жилья');
-}
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("ss", $location, $propertyClass);
+$stmt->execute();
+$result = $stmt->get_result();
 
-// Получение и очистка данных
-$city = filter_var(trim($_POST['city']), FILTER_SANITIZE_STRING);
-$type = filter_var(trim($_POST['type']), FILTER_SANITIZE_STRING);
-
-// Проверяем конкретную комбинацию
-if ($city === 'aksay' && $type === 'comfort') {
-    header('Location: ../prostor.html');
-    exit;
+if ($result->num_rows > 0) {
+    // Если найден подходящий ЖК
+    $complex = $result->fetch_assoc();
+    if ($complex['name'] === 'ПРОСТОР' && $complex['location'] === 'Аксай' && $complex['class'] === 'Комфорт') {
+        $response['success'] = true;
+        $response['redirect'] = 'prostor.html';
+    } else {
+        $response['message'] = 'К сожалению, в данный момент нет доступных ЖК с выбранными параметрами';
+    }
 } else {
-    header('Location: ../index.html?error=not_found');
-    exit;
+    $response['message'] = 'К сожалению, в данный момент нет доступных ЖК с выбранными параметрами';
 }
+
+// Возвращаем результат
+echo json_encode($response);
 ?>
