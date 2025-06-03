@@ -1,7 +1,5 @@
 <?php
-define('SECURE_ACCESS', true);
 require_once 'config.php';
-require_once 'functions.php';
 
 // Добавляем заголовки безопасности
 header('Content-Type: application/json');
@@ -17,24 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     exit;
 }
 
-try {
-    // Генерация нового CSRF токена
-    $token = generateCSRFToken();
-    
-    if (empty($token)) {
-        throw new Exception('Failed to generate CSRF token');
-    }
-    
-    // Отправка токена клиенту
-    echo json_encode([
-        'success' => true,
-        'token' => $token
-    ]);
-} catch (Exception $e) {
-    error_log("Error generating CSRF token: " . $e->getMessage());
-    http_response_code(500);
-    echo json_encode([
-        'success' => false,
-        'error' => 'Internal Server Error'
-    ]);
-} 
+// Генерация нового CSRF токена
+$token = generateCSRFToken();
+
+// Отправка токена клиенту
+echo json_encode(['token' => $token]); 
