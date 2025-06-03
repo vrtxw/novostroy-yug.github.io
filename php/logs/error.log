@@ -1,0 +1,673 @@
+[26-May-2025 18:31:19 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 5
+[26-May-2025 18:31:19 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 6
+[26-May-2025 18:31:19 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 7
+[26-May-2025 18:31:19 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 8
+[26-May-2025 18:31:19 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 9
+[26-May-2025 18:31:47 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 12
+[26-May-2025 18:31:47 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 13
+[26-May-2025 18:31:47 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 14
+[26-May-2025 18:31:47 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 15
+[26-May-2025 18:31:47 Europe/Moscow] Form Error: Ошибка безопасности: неверный токен
+[26-May-2025 18:31:49 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 12
+[26-May-2025 18:31:49 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 13
+[26-May-2025 18:31:49 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 14
+[26-May-2025 18:31:49 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php:1) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/send.php on line 15
+[26-May-2025 18:31:49 Europe/Moscow] Form Error: Ошибка безопасности: неверный токен
+[26-May-2025 18:32:46 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 5
+[26-May-2025 18:32:46 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 6
+[26-May-2025 18:32:46 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 7
+[26-May-2025 18:32:46 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 8
+[26-May-2025 18:32:46 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 9
+[26-May-2025 19:31:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 5
+[26-May-2025 19:31:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 6
+[26-May-2025 19:31:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 7
+[26-May-2025 19:31:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 8
+[26-May-2025 19:31:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 9
+[26-May-2025 19:32:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 5
+[26-May-2025 19:32:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 6
+[26-May-2025 19:32:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 7
+[26-May-2025 19:32:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 8
+[26-May-2025 19:32:30 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:103) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/get_token.php on line 9
+[27-May-2025 00:12:15 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:29) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 8
+[27-May-2025 00:13:58 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:29) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 8
+[27-May-2025 00:15:04 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:3) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 8
+[27-May-2025 00:17:40 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 8
+[27-May-2025 00:17:49 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 8
+[27-May-2025 02:45:57 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 10
+[27-May-2025 02:48:10 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/login.php on line 10
+[27-May-2025 02:48:19 Europe/Moscow] Error [2]: Undefined array key "admin_username" in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 78
+[27-May-2025 02:48:19 Europe/Moscow] Error [8192]: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 86
+[27-May-2025 02:48:26 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize() in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 33
+[27-May-2025 02:48:29 Europe/Moscow] Error [2]: Undefined array key "admin_username" in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 78
+[27-May-2025 02:48:29 Europe/Moscow] Error [8192]: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 86
+[27-May-2025 02:48:30 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize() in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 33
+[27-May-2025 02:48:32 Europe/Moscow] Error [2]: Undefined array key "admin_username" in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 78
+[27-May-2025 02:48:32 Europe/Moscow] Error [8192]: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 86
+[27-May-2025 02:48:44 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize() in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 33
+[27-May-2025 02:48:45 Europe/Moscow] Error [2]: Undefined array key "admin_username" in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 78
+[27-May-2025 02:48:45 Europe/Moscow] Error [8192]: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 86
+[27-May-2025 02:48:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize() in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 33
+[27-May-2025 02:48:59 Europe/Moscow] Error [2]: Undefined array key "admin_username" in /var/www/u3145574/data/www/sz-novostroi-yug.ru/admin/index.php on line 78
+[27-May-2025 02:48:59 Europe/Moscow] Error [8192]: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 86
+[27-May-2025 02:49:19 Europe/Moscow] Failed login attempt for username: admin
+[27-May-2025 02:49:38 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 02:51:01 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 02:51:26 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 02:51:36 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 183
+[27-May-2025 02:51:39 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 183
+[27-May-2025 02:51:58 Europe/Moscow] Failed login attempt for username: u3145574_default
+[27-May-2025 02:52:17 Europe/Moscow] Failed login attempt for username: admin
+[27-May-2025 02:52:28 Europe/Moscow] Failed login attempt for username: admin
+[27-May-2025 02:52:38 Europe/Moscow] Failed login attempt for username: admin
+[27-May-2025 02:54:42 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 02:55:06 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 183
+[27-May-2025 02:55:08 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 183
+[27-May-2025 02:57:24 Europe/Moscow] Failed login attempt for username: localhost
+[27-May-2025 02:57:38 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 02:58:00 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 02:58:11 Europe/Moscow] Failed login attempt for username: u3145574_default
+[27-May-2025 03:00:59 Europe/Moscow] Error [2]: Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:225) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 183
+[27-May-2025 03:01:35 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 03:04:02 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 03:04:16 Europe/Moscow] Failed login attempt for username: u3145574_devilpurrp
+[27-May-2025 03:06:35 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:06:35 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748304395
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:06:35 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => u3145574_devilpurrp
+)
+
+[27-May-2025 03:06:35 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:06:35 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:06:35 Europe/Moscow] Username match: true
+[27-May-2025 03:06:35 Europe/Moscow] Password verification result: false
+[27-May-2025 03:06:35 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:06:35 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748304395
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:06:43 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:06:43 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748304403
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:06:43 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => u3145574_devilpurrp
+)
+
+[27-May-2025 03:06:43 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:06:43 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:06:43 Europe/Moscow] Username match: true
+[27-May-2025 03:06:44 Europe/Moscow] Password verification result: false
+[27-May-2025 03:06:44 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:06:44 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748304403
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:09:14 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:09:14 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748304554
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:09:14 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:09:14 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:09:14 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:09:14 Europe/Moscow] Username match: true
+[27-May-2025 03:09:14 Europe/Moscow] Password verification result: false
+[27-May-2025 03:09:14 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:09:14 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748304554
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:10:40 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:10:40 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748304640
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:10:40 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:10:40 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:10:40 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:10:40 Europe/Moscow] Username match: true
+[27-May-2025 03:10:40 Europe/Moscow] Password verification result: false
+[27-May-2025 03:10:40 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:10:40 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748304640
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:15:23 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:15:23 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748304923
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:15:23 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:15:23 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:15:23 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:15:23 Europe/Moscow] Username match: true
+[27-May-2025 03:15:23 Europe/Moscow] Password verification result: false
+[27-May-2025 03:15:23 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:15:23 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748304923
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:22:17 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:22:17 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305337
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:22:17 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:22:17 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:22:59 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:22:59 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305379
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:22:59 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:22:59 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:22:59 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305379
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:22:59 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:22:59 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:22:59 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:22:59 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:22:59 Europe/Moscow] Username match: true
+[27-May-2025 03:22:59 Europe/Moscow] Password verification result: false
+[27-May-2025 03:22:59 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:22:59 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748305379
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:23:07 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:23:07 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305387
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:23:07 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:23:07 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:23:07 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:34) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 160
+[27-May-2025 03:26:18 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:26:18 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305578
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:26:18 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:26:18 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:26:29 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:26:29 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305589
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:26:29 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:26:29 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:26:29 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:237) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 162
+[27-May-2025 03:26:41 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:26:41 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305601
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:26:41 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:26:41 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:26:52 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:26:52 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305612
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:26:52 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:26:52 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:26:52 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305612
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:26:52 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:26:52 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:26:52 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:26:52 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:26:52 Europe/Moscow] Username match: true
+[27-May-2025 03:26:53 Europe/Moscow] Password verification result: false
+[27-May-2025 03:26:53 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:26:53 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748305612
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:30:58 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:30:58 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305858
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:30:58 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:30:58 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:31:13 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:31:13 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305873
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:31:13 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:31:13 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:31:13 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305873
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:31:13 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:31:13 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:31:13 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:31:13 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:31:13 Europe/Moscow] Username match: true
+[27-May-2025 03:31:13 Europe/Moscow] Password provided: 2MX***
+[27-May-2025 03:31:13 Europe/Moscow] Stored hash: $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+[27-May-2025 03:31:14 Europe/Moscow] Password verification result: false
+[27-May-2025 03:31:14 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:31:14 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748305873
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:32:23 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:32:23 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305943
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:32:23 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+)
+
+[27-May-2025 03:32:23 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:32:23 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305943
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:32:23 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:32:23 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:32:23 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:32:23 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:32:23 Europe/Moscow] Username match: true
+[27-May-2025 03:32:23 Europe/Moscow] Password provided: $2y***
+[27-May-2025 03:32:23 Europe/Moscow] Stored hash: $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+[27-May-2025 03:32:23 Europe/Moscow] Password verification result: false
+[27-May-2025 03:32:23 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:32:23 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748305943
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:32:39 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:32:39 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305959
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:32:39 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:32:39 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:32:39 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748305959
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:32:39 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:32:39 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:32:39 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:32:39 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:32:39 Europe/Moscow] Username match: true
+[27-May-2025 03:32:39 Europe/Moscow] Password provided: 2MX***
+[27-May-2025 03:32:39 Europe/Moscow] Stored hash: $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+[27-May-2025 03:32:39 Europe/Moscow] Password verification result: false
+[27-May-2025 03:32:39 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:32:39 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748305959
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:37:13 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:37:13 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306233
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:37:13 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:37:13 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:37:44 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:37:44 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306264
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:37:44 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:37:44 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:37:44 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306264
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:37:44 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:37:44 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:37:44 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:37:44 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:37:44 Europe/Moscow] Username match: true
+[27-May-2025 03:37:44 Europe/Moscow] Password provided: 2MX***
+[27-May-2025 03:37:44 Europe/Moscow] Stored hash: $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+[27-May-2025 03:37:44 Europe/Moscow] Password verification result: false
+[27-May-2025 03:37:44 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:37:44 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748306264
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:38:54 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:38:54 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306334
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:38:54 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:38:54 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:38:54 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php:237) in /var/www/u3145574/data/www/sz-novostroi-yug.ru/php/config.php on line 162
+[27-May-2025 03:39:52 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:39:52 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306392
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:39:52 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:39:52 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:40:13 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:40:13 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306413
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:40:13 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[27-May-2025 03:40:13 Europe/Moscow] Checking admin login status:
+[27-May-2025 03:40:13 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748306413
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[27-May-2025 03:40:13 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[27-May-2025 03:40:13 Europe/Moscow] Admin logged in check: false
+[27-May-2025 03:40:13 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[27-May-2025 03:40:13 Europe/Moscow] Expected username: u3145574_devilpurrp
+[27-May-2025 03:40:13 Europe/Moscow] Username match: true
+[27-May-2025 03:40:13 Europe/Moscow] Password provided: 2MX***
+[27-May-2025 03:40:13 Europe/Moscow] Stored hash: $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+[27-May-2025 03:40:13 Europe/Moscow] Password verification result: false
+[27-May-2025 03:40:13 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[27-May-2025 03:40:13 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748306413
+    [csrf_token] => 437c70a01e60325235e756a29b7f12930976db5bca78536b0dd7fba2cbf1d168
+)
+
+[28-May-2025 17:31:22 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:31:22 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748442682
+)
+
+[28-May-2025 17:31:22 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:31:22 Europe/Moscow] Admin logged in check: false
+[28-May-2025 17:33:22 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:33:22 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748442802
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:33:22 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:33:22 Europe/Moscow] Admin logged in check: false
+[28-May-2025 17:34:19 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[28-May-2025 17:34:19 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748442859
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:34:19 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[28-May-2025 17:34:19 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:34:19 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748442859
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:34:19 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:34:19 Europe/Moscow] Admin logged in check: false
+[28-May-2025 17:34:19 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[28-May-2025 17:34:19 Europe/Moscow] Expected username: u3145574_devilpurrp
+[28-May-2025 17:34:19 Europe/Moscow] Username match: true
+[28-May-2025 17:34:19 Europe/Moscow] Password provided: 2MX***
+[28-May-2025 17:34:19 Europe/Moscow] Stored hash: $2y$10$6jUlWyqjVwGX9Z5QgXl3/.3RwPj7Y9nF.DpU3p9hBsYFJBBL7qOgC
+[28-May-2025 17:34:20 Europe/Moscow] Password verification result: false
+[28-May-2025 17:34:20 Europe/Moscow] Failed login attempt - Username: u3145574_devilpurrp
+[28-May-2025 17:34:20 Europe/Moscow] Current session data: Array
+(
+    [last_activity] => 1748442859
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:39:33 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:39:33 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748443173
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:39:33 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:39:33 Europe/Moscow] Admin logged in check: false
+[28-May-2025 17:53:51 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:53:51 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748444031
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:53:51 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:53:51 Europe/Moscow] Admin logged in check: false
+[28-May-2025 17:55:22 Europe/Moscow] Login attempt - Username: u3145574_devilpurrp
+[28-May-2025 17:55:22 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748444122
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:55:22 Europe/Moscow] POST data: Array
+(
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+    [username] => u3145574_devilpurrp
+    [password] => 2MXIE49z1tpNpsBB
+)
+
+[28-May-2025 17:55:22 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:55:22 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748444122
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:55:22 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:55:22 Europe/Moscow] Admin logged in check: false
+[28-May-2025 17:55:22 Europe/Moscow] Login attempt - Provided username: u3145574_devilpurrp
+[28-May-2025 17:55:22 Europe/Moscow] Expected username: u3145574_devilpurrp
+[28-May-2025 17:55:22 Europe/Moscow] Username match: true
+[28-May-2025 17:55:22 Europe/Moscow] Password provided: 2MX***
+[28-May-2025 17:55:22 Europe/Moscow] Stored hash: $2y$10$YwB0MHB8vRlJOYxFl3Y1/.WcQnY0rI9nXzqkr1YhL4jgzVrxhKmPi
+[28-May-2025 17:55:22 Europe/Moscow] Password verification result: false
+[28-May-2025 17:55:22 Europe/Moscow] Login failed - Final session data: Array
+(
+    [last_activity] => 1748444122
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:57:02 Europe/Moscow] Checking admin login status:
+[28-May-2025 17:57:02 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748444222
+    [csrf_token] => 955816dc207f3395c898ff2919708ac23e41d51f8ddf47a1f634e19fe8d80edc
+)
+
+[28-May-2025 17:57:02 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[28-May-2025 17:57:02 Europe/Moscow] Admin logged in check: false
+[30-May-2025 07:30:26 Europe/Moscow] Checking admin login status:
+[30-May-2025 07:30:26 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748579426
+)
+
+[30-May-2025 07:30:26 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[30-May-2025 07:30:26 Europe/Moscow] Admin logged in check: false
+[30-May-2025 07:30:27 Europe/Moscow] Checking admin login status:
+[30-May-2025 07:30:27 Europe/Moscow] Session data: Array
+(
+    [last_activity] => 1748579427
+    [csrf_token] => b8671d605f0af2325d6268deee8b64be69df96875b1b86d75ffeda4fd6d700a9
+)
+
+[30-May-2025 07:30:27 Europe/Moscow] Admin username check: not set vs u3145574_devilpurrp
+[30-May-2025 07:30:27 Europe/Moscow] Admin logged in check: false
